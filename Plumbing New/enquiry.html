@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - QuickFix Plumbing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>QuickFix Plumbing</h1>
+            <p class="tagline">Affordable Plumbing Solutions for Everyone</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Page Banner -->
+        <section class="page-banner">
+            <h2>Service Enquiry</h2>
+            <p>Tell us about your plumbing needs and we'll get back to you as soon as possible.</p>
+        </section>
+
+        <!-- Enquiry Form Section -->
+        <section class="form-section">
+            <h2>Book a Plumber</h2>
+            <p>Please fill in the form below with your details and the plumbing service you require. We will respond within 24 hours during business days.</p>
+
+            <form action="#" method="post" class="enquiry-form">
+
+                <!-- Personal Details -->
+                <fieldset>
+                    <legend>Your Details</legend>
+
+                    <label for="first-name">First Name *</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+
+                    <label for="last-name">Last Name *</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g. 072 123 4567">
+
+                    <label for="institution">Property / Area</label>
+                    <input type="text" id="institution" name="institution" placeholder="e.g. Suburb or Complex Name">
+                </fieldset>
+
+                <!-- Service Details -->
+                <fieldset>
+                    <legend>Service Required</legend>
+
+                    <label for="service">Select a Service *</label>
+                    <select id="service" name="service" required>
+                        <option value="">-- Please select a service --</option>
+                        <option value="leak-repair">Leak Detection &amp; Repair</option>
+                        <option value="drain-unblocking">Blocked Drains &amp; Pipes</option>
+                        <option value="geyser-maintenance">Geyser Installation &amp; Service</option>
+                        <option value="fixture-install">Taps, Toilets &amp; Shower Fixes</option>
+                        <option value="emergency-plumb">Emergency Plumber Requests</option>
+                        <option value="other">Other (please describe below)</option>
+                    </select>
+
+                    <label for="urgency">How Urgent Is Your Request?</label>
+                    <select id="urgency" name="urgency">
+                        <option value="not-urgent">Not urgent — within the week</option>
+                        <option value="soon">Soon — within 2 to 3 days</option>
+                        <option value="urgent">Urgent — as soon as possible</option>
+                    </select>
+
+                    <label for="description">Describe Your Plumbing Issue *</label>
+                    <textarea id="description" name="description" rows="6" placeholder="Please describe what you need help with in as much detail as possible (e.g., burst pipe, leaking tap)." required></textarea>
+                </fieldset>
+
+                <!-- Preferred Contact Method -->
+                <fieldset>
+                    <legend>Preferred Contact Method</legend>
+
+                    <label>
+                        <input type="radio" name="contact-method" value="email" checked>
+                        Email
+                    </label>
+                    <label>
+                        <input type="radio" name="contact-method" value="phone">
+                        Phone Call
+                    </label>
+                    <label>
+                        <input type="radio" name="contact-method" value="whatsapp">
+                        WhatsApp
+                    </label>
+                </fieldset>
+
+                <button type="submit" class="btn">Submit Enquiry</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 QuickFix Plumbing. All rights reserved.</p>
+        <p>Cape Town, Western Cape, South Africa</p>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="services.html">Services</a> |
+            <a href="enquiry.html">Enquiry</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
